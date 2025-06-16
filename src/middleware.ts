@@ -8,8 +8,8 @@ export function middleware(request: NextRequest) {
   // Preserve the entire path and query string
   const fullPath = url.pathname + url.search;
   
-  // Redirect to docs.zbdpay.com with the same path
-  return NextResponse.redirect(`https://docs.zbdpay.com${fullPath}`, {
+  // Redirect to status.zbdpay.com with the same path
+  return NextResponse.redirect(`https://status.zbdpay.com${fullPath}`, {
     status: 301,
   });
 }
