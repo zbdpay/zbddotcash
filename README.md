@@ -1,6 +1,6 @@
-# zbd.dev → docs.zbdpay.com
+# status.zbd.dev → status.zbdpay.com
 
-Simple redirect proxy that forwards all traffic from zbd.dev to docs.zbdpay.com while preserving URL paths and query parameters.
+Simple redirect proxy that forwards all traffic from status.zbd.dev to status.zbdpay.com while preserving URL paths and query parameters.
 
 ## Setup
 
@@ -13,6 +13,6 @@ npm start
 ## How it works
 
 Uses Next.js middleware to perform 301 redirects:
-- `zbd.dev/path` → `docs.zbdpay.com/path`
+- `status.zbd.dev/path` → `status.zbdpay.com/path`
 - Query parameters are preserved
 - All paths are redirected
